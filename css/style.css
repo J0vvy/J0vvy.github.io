@@ -1,0 +1,188 @@
+@font-face {
+    font-family: "Space Mono", monospace;
+    src: url('media/fonts/OCR-a.ttf') format('truetype');
+}
+
+* {
+    font-family: "Space Mono", monospace;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width */
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+}
+
+
+.background {
+    background-image: url("/media/background/background.png");
+    background-size: cover; /* Ensures the image covers the whole element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the background image */
+    text-align: center;
+    min-height: 100vh; /* Ensures the element takes up at least the full viewport height */
+    width: 100vw; /* Ensures the element takes up the full viewport width */
+    display: flex; /* Enable flexbox for centering content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+   
+    background: black;
+    opacity: 0.95; /* Adjusted opacity */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Added a box shadow for depth */
+}
+
+.logo{
+    font-size: 64px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a {
+    font-size: 80%;
+    padding: 10px; /* Adjusted padding */
+    color: aliceblue;
+    text-shadow: 0 0 1px #ffffff, 0 0 2px #ffffff;
+}
+
+#Introduction {
+    padding: 10%; /* Adjusted padding */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 400px;
+    min-width: 500px;
+    font-size: 200%;
+    color: aliceblue;
+    mix-blend-mode: hard-light;
+}
+
+h2 {
+    mix-blend-mode: overlay;
+    color: aliceblue;
+}
+
+#Introduction div {
+    min-height: 1280px;
+    min-width: 720px;
+    background-color: black;
+    margin: 10px;
+    padding-top: 50px; /* Adjusted padding */
+    font-size: 100px;
+    text-align: center;
+    position: relative;
+    mix-blend-mode: overlay;
+    color: aliceblue;
+}
+
+.cube {
+    position: relative;
+    font-size: 64px;
+    text-decoration: none;
+    align-items: right;
+    left: 25%;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+#About div {
+    min-height: 1280px;
+    min-width: 720px;
+    background-color: white;
+    padding-top: 50px; /* Adjusted padding */
+    font-size: 100px;
+    text-align: center;
+    position: relative;
+    mix-blend-mode: overlay;
+    color: aliceblue;
+}
+
+#About {
+    display: flex;
+    justify-content: center; /* Adjusted alignment */
+    align-items: center; /* Adjusted alignment */
+    text-align: left;
+    background-color: aliceblue;
+    font-size: 200%;
+    color: black;
+    mix-blend-mode: hard-light;
+}
+
+#About p {
+    margin: 50px;
+    padding: px; /* Adjusted padding */
+}
+
+#Portfolios {
+    text-align: center;
+    color: aliceblue;
+    background: black;
+    font-size: 250%;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 50px; /* Adjusted padding */
+}
+
+#container div {
+    min-height: 250px;
+    min-width: 20%;
+    background-color: white;
+    margin: 5px;
+    padding-top: 50px; /* Adjusted padding */
+    text-align: center;
+}
+
+#Skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 250%;
+}
+
+
+
+#Languages {
+    text-align: center;
+    font-size: 250%;
+    color: aliceblue;
+    background: black;
+}
+
+#Software {
+    padding: 90px 0; /* Adjusted padding */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 405px;
+    min-width: 50%;
+    background-color: white;
+    text-align: center;
+}
+
+#Software div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 150%;
+    min-width: 20%;
+    background-color: white;
+    margin: 10px;
+    padding-top: 50px; /* Adjusted padding */
+    font-size: 250%;
+    text-align: center;
+}
